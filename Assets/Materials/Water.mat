@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Embers
-  m_Shader: {fileID: -6465566751694194690, guid: ac32aaca6f34cc3469dbaa614d3ba617, type: 3}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 9a920b20d0c76d44880bc8fa42804927, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -88,50 +88,59 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CellDensity: 2
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DepthFade: 4
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _FoamCutoff: 1.18
+    - _FoamDepth: 0.91
+    - _FoamScale: 10
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _HeightTolerance: 0.627
     - _Metallic: 0
-    - _NoiseScale: 100
+    - _NormalStrength: 0.326
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PulseSpeed: 0.25
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Scale1: 100
-    - _Scale2: 13
-    - _Smoothness: 0.5
+    - _RefractionStrength: 0.045
+    - _RefractionWaveSize: 5.5
+    - _SecondaryRefractionWaveSize: 15.3
+    - _Smoothness: 0.63
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _StepMax: 0.075
-    - _StepMin: 0.0019
     - _Surface: 0
+    - _WaveAmplitude: 2
+    - _WaveFrequency: 0.125
+    - _WaveSpeed: 0.5
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 4.467055, g: 1.0758351, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Direction: {r: -0.0125, g: 0.25, b: 0, a: 0}
+    - _DeepColor: {r: 0, g: 0.44865537, b: 0.735849, a: 0.7254902}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0.7019608}
+    - _FoamSpeed: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _RefractionSpeed: {r: 0.1, g: 0.25, b: 0, a: 0}
+    - _ShallowColor: {r: 0.24061525, g: 0.9937106, b: 0.96376365, a: 0.59607846}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0.40784314, g: 0.40784314, b: 0.40784314, a: 1}
+    - _WaveDirection: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &5680453932783329389
+--- !u!114 &8513185858517041560
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
